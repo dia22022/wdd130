@@ -1,3 +1,21 @@
-body{
+*{
     text-align: center;
+    margin: 0 auto;
+    background-color: pink;
+}
+header{
+    color: white;
+    text-align: center;
+}
+header.hover{
+    color: black;
+}
+.first{
+    color: white;
+    text-align: center;
+}
+#prophet{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
 }
