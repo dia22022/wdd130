@@ -1,33 +1,44 @@
-*{
+* {
     text-align: center;
     margin: 0 auto;
     background-color: pink;
 }
-header{
+header {
     color: white;
     text-align: center;
+    font-size: 2rem;
     font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
-header.hover{
+h1:hover {
     color: black;
     font-weight: bold;
 }
-.first{
+.first {
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
+    width: 60%;
+    padding-bottom: 4%;
 }
-.list{
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
-    text-align: center;
+    text-align: left;
+    width: 50%;
 }
-#prophet{
+#prophet {
     display: block;
     margin: 0 auto;
     max-width: 300px;
 }
-.second{
+.second {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 50px 20px;
+    padding-bottom: 7%;
+    width: 50%;
 }
