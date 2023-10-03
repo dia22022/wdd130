@@ -6,16 +6,28 @@
 header{
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 header.hover{
     color: black;
+    font-weight: bold;
 }
 .first{
     color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.list{
+    color: black;
     text-align: center;
 }
 #prophet{
     display: block;
     margin: 0 auto;
     max-width: 300px;
+}
+.second{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 50px 20px;
 }
