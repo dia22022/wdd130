@@ -1,0 +1,25 @@
+.logo {
+    margin: 0;
+}
+.desk {
+    width: 20%;
+    border: 8px solid #36454F;
+    border-radius: 50%;
+}
+.graphic {
+    width: 20%;
+    border: 8px solid #36454F;
+    border-radius: 50%;
+}
+.person { 
+    width: 20%;
+    border: 8px solid #36454F;
+    border-radius: 50%;
+}
+img {
+    float: left;
+    margin: 4em;
+}
+body {
+    background-color: grey;
+}

@@ -2,8 +2,14 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav {
+    padding: 25px;
+}
 nav a{
     text-align: center;
+}
+a {
+    padding: 25px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -21,6 +27,7 @@ main section{
 body {
     background-color: #F0A202;
     color: #202C59;
+    margin: 0;
 }
 header {
     background-color: #F0A202;
@@ -37,6 +44,9 @@ nav a:hover {
 }
 .home-title {
     color: #202C59;  
+}
+h1 {
+    margin: 50px 0;
 }
 h4 {
     color: #202C59; 
@@ -61,6 +71,9 @@ h4 {
     background-color: #F0A202;
     color: #202C59;
 }
+img {
+    border: 4px solid steelblue;
+}
 footer {
     background-color: #F0A202;
     color: #202C59;
@@ -72,6 +85,7 @@ footer a {
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px;
 }
 footer p a:hover {
     text-decoration: underline;
