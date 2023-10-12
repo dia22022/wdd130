@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/** 
+--heading-font: 'Roboto Mono', monospace;
+ --paragraph-font: 'Roboto Mono', monospace;
+**/
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +12,7 @@ nav {
 }
 nav a{
     text-align: center;
+    padding: 35px;
 }
 a {
     padding: 25px;
@@ -20,6 +26,9 @@ a {
 main section{ 
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: #F0A202;
@@ -28,6 +37,15 @@ body {
     background-color: #F0A202;
     color: #202C59;
     margin: 0;
+    font-family:'Roboto Mono', monospace;
+    font-size: 22px;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
 }
 header {
     background-color: #F0A202;
@@ -44,6 +62,9 @@ nav a:hover {
 }
 .home-title {
     color: #202C59;  
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    margin-top: 10px;
 }
 h1 {
     margin: 50px 0;
@@ -56,20 +77,41 @@ h4 {
     color: #202C59;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #202C59;
 }
 .book:hover, .join:hover {
     background-color: #202C59;
     color: white;
 }
+.rivers-card {
+    margin:200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #202C59;
+}
 .msg h2 {
     color: #202C59; 
+    font-family: 'Roboto Mono', monospace;
 }
 .msg p {
     color: #202C59; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg {
     background-color: #F0A202;
     color: #202C59;
+    padding: 35px;
 }
 img {
     border: 4px solid steelblue;
@@ -77,6 +119,8 @@ img {
 footer {
     background-color: #F0A202;
     color: #202C59;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #202C59; 
@@ -94,8 +138,12 @@ footer a:hover {
     background-color: #202C59;
     color: white;
 }
+.social {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
