@@ -48,9 +48,11 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
-    width: 80px;
     justify-self: center;
     align-self: center;
+}
+.logo{
+    width: 80px;
 }
 header {
     background-color: #F0A202;
@@ -76,9 +78,9 @@ nav a:hover {
     grid-template-columns: repeat(10, 1fr);
 }
 .home-title {
-    color: #202C59;  
+    color: white;  
     font-family: 'Roboto Mono', monospace;
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 10px;
 }
 h1 {
