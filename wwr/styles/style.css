@@ -71,6 +71,10 @@ nav a:hover {
     background-color: #202C59;
     color: white;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 .home-title {
     color: #202C59;  
     font-family: 'Roboto Mono', monospace;
