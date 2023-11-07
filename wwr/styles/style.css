@@ -181,6 +181,7 @@ footer a {
 footer p {
     font-size: 1.2em;
     padding: 25px;
+    flex: 1;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -218,6 +219,29 @@ z-index: -1;
 }
 #hero-msg h4 {
     color: white;
+}
+/** Story post headline**/
+
+.story-main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.story-post {
+    background-color:#202C59;
+    color:#d9c2a3;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+.rivers-img {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+.rivers2-img {
+    width: 400px;
+    float: right;
+    margin: 5px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

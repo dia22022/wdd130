@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 challenge</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .card {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: navy;
+            height: 100px;
+            align-content: center;
+        }
+        .stat {
+            color: white;
+            text-align: center;
+            border-right: 1px grey solid;
+        }
+        .stat1 {
+            font-size: 1.5rem;
+        }
+        .stat2 {
+            font-size: .8rem;
+        }
+        .stat p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        .stats div:nth-child(3) {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="city scape">
+        <p class="timing">3 weeks ago</p>
+        <p class="heading">Pose Three</p>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet debitis corrupti animi? Sed ducimus eligendi enim odio. Quos aut quam animi voluptate adipisci, dolore fugiat dolores maxime reprehenderit, velit nostrum nisi blanditiis numquam eius, impedit beatae fuga corrupti delectus at quod dolor laborum! Nulla nisi dolorem inventore! Distinctio vel hic facilis eos odit a illum impedit quaerat veniam tempore quae dicta fugiat ipsum adipisci nulla doloribus provident non, molestias tempora voluptates nisi nihil? Temporibus aut sapiente minus maxime aliquam amet, porro earum quis ipsam, error enim aspernatur dignissimos reprehenderit placeat ducimus nulla doloribus voluptas! Consequuntur magni adipisci sunt a!</p>
+        <div class="stats">
+            <div class="stat">
+                <p class="stat1">5<sup>m</sup></p>
+                <p class="stat2">READ</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">2031</p>
+                <p class="stat2">VIEWS</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">15</p>
+                <p class="stat2">COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
