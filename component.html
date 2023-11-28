@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian Component Example</title>
+    <link rel="stylesheet" href="component-styles.css">
+</head>
+<body>
+    <h1>Phineas and Ferb Characters</h1>
+    <button class="accordion">Phineas Flynn</button>
+        <div class="panel">
+            <p>Phineas Flynn (voiced by Vincent Martella) is the main character of the series. He has red hair. His age is not mentioned. Phineas, along with his stepbrother Ferb Fletcher, star in the A-Plot of every episode. The series concerns Phineas's attempts to avoid boredom by finding something new to do every day of the summer vacation. He does this with his less-talkative stepbrother Ferb,[1] and often with many other neighborhood children. He is known to be very selfless and energetic. Phineas has many catch phrases like "Oh, there you are, Perry" or "Hey, Ferb! I know what we're going to do today!" and "Hey, where's Perry?".</p>
+        </div>
+
+    <button class="accordion">Ferb Fletcher</button>
+        <div class="panel">
+            <p>Ferb Fletcher (voiced by Thomas Brodie-Sangster 2007–2015; David Errigo Jr. 2018–present) is a boy of few words. He is Phineas's green-haired, intelligent but laconic stepbrother from the United Kingdom. Created by Phineas and Ferb co-founders Dan Povenmire and Jeff "Swampy" Marsh, he first appeared in the show's pilot episode, "Rollercoaster."
+
+                Ferb and his stepbrother Phineas Flynn spend their days during their summer vacation having fun. They are featured in every episode's A-Plot constructing large scale inventions or taking part in other outlandish activities. Ferb, an engineering genius, allows Phineas to do most of the talking for the pair and is described as "more of a man of action," by Phineas, which makes him more of a plot device than a developed character. Ferb is more likely to sing than speak, but most often has a one-liner in the episodes. Ferb is named after a friend of the show's creators who was an expert on tools and, at times, stayed rather silent.[7]</p>
+        </div>
+
+    <button class="accordion">Candice</button>
+        <div class="panel">
+            <p>Candace was designed to anatagonize her brothers. In most episodes, she appears to disapprove of their inventions and attempt to get them in trouble by showing their mom the inventions. Her catchphrases are: "Mom! Phineas and Ferb are..." and "You are so busted!", and while she never proves anything to her mother, Candace persists in the majority of episodes. Whenever she attempts to "bust" her brothers, Phineas and Ferb's work unintentionally disappears before their mother sees it, and the boys appear to be involved in simple activities. Usually, Candace is shown stuttering, with her mother is shown forcibly taking her away and disregarding Candace's actions as crazy and childish.</p>
+        </div>
+    <button class="accordion">Perry the Platypus</button>
+        <div class="panel">
+            <p>Perry the Platypus (vocal effects by Dee Bradley Baker), a.k.a. Agent P, is Phineas and Ferb's pet platypus and first appeared along with a large portion of the main cast in the pilot episode "Rollercoaster." Perry is featured as the star of the B-Plot for all but one episode of the series alongside his arch-nemesis Dr. Heinz Doofenshmirtz. He is a primarily silent character, with the only noises being the occasional rattling of his bill. Toward the beginning and end of most episodes, a character, often Phineas, can be found addressing Perry's absence with “Where’s Perry?” and “Oh, there you are, Perry,” respectively, which are also both titles of episodes.</p>
+        </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
