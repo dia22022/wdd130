@@ -31,3 +31,51 @@
     display: grid;
     grid-template-columns: 150px auto;
 }
+
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-bottom: 6%;
+}
+.container {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 8%; 
+  font-size: 110%;
+}
+.hero {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#logo{
+  width: 100px;
+}
+nav {
+  justify-self: center; 
+  align-self: center;
+}
+nav a {
+  display: inline-block;
+  margin: 0;
+  padding: 33px 20px;
+  font-size: 175%;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  background-color: #9F2B68;
+  color: white;
+}
+.icon {
+  width: 50px;
+  margin: 0;
+  padding: 4px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
