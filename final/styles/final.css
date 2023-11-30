@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
     /* change the values below to your colors from your palette */
@@ -22,34 +22,25 @@
     --nav-hover-link-color: white;
     --nav-hover-background-color: #9F2B68;
   }
-  img {
-    width: 300px;
+
+  body {
+    margin: 0;
+    font-family: var(--paragraph-font)
   }
+
+  h2 {
+    font-family: var(--heading-font);
+  }
+.img-300 {
+  width: 300px;
+}
   header {
     background-color: #6495ED;
     color: #9F2B68;
     display: grid;
     grid-template-columns: 150px auto;
 }
-
-.home-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  padding-bottom: 6%;
-}
-.container {
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 8%; 
-  font-size: 110%;
-}
-.hero {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-#logo{
+.logo{
   width: 100px;
 }
 nav {
@@ -67,6 +58,35 @@ nav a {
 nav a:hover {
   background-color: #9F2B68;
   color: white;
+}
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-bottom: 2%;
+}
+.container {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 6%; 
+  font-size: 110%;
+}
+.cart {
+  text-align: center;
+  padding-top: 4%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.hero {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.jar {
+  padding-top: 5%;
+}
+.img-100 {
+  height: 300px;
 }
 .icon {
   width: 50px;
