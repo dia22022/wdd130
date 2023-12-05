@@ -72,6 +72,16 @@ nav a:hover {
   padding-top: 6%; 
   font-size: 110%;
 }
+#case {
+  text-align: center;
+  padding-left: 20%;
+  padding-top: 12%;
+}
+#holder {
+  text-align: center;
+  padding-right: 20%;
+  padding-top: 10%;
+}
 .cart {
   text-align: center;
   padding-top: 4%;
@@ -82,11 +92,19 @@ nav a:hover {
   padding-top: 5%;
   padding-bottom: 3%;
 }
+.box {
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
 .jar {
   padding-top: 5%;
 }
 .img-100 {
   height: 300px;
+}
+.big-img {
+  width: 300px;
 }
 .icon {
   width: 50px;
